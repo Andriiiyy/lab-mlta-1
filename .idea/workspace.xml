@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28de2b92-cab8-43e5-a0b7-3c9f4d5f2331" name="Changes" comment="creation of test for adjacency storage">
+      <change afterPath="$PROJECT_DIR$/utils/inc_list_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/inc_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes/incidence_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/incidence_matrix.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kkPFFO8KessoZM1bJECTIAoD4x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.adj_list_test.executor": "Run",
+    "Python.adj_matrix_test.executor": "Run",
+    "Python.adjacency_matrix.executor": "Run",
+    "Python.inc_list_test.executor": "Run",
+    "Python.incidence_list.executor": "Run",
+    "Python.incidence_matrix.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.matrixSetup.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/users/andrewvolia/mlta/labs/lab1",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/datatypes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="adj_matrix_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TERM" value="xterm" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/adj_matrix_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.adj_matrix_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce3d9afa04ac-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28de2b92-cab8-43e5-a0b7-3c9f4d5f2331" name="Changes" comment="" />
+      <created>1723824495875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723824495875</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Project created">
+      <option name="closed" value="true" />
+      <created>1723827150177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827150177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Node created">
+      <option name="closed" value="true" />
+      <created>1723827160548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827160548</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created graph method">
+      <option name="closed" value="true" />
+      <created>1723827403559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827403559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created add_edge method">
+      <option name="closed" value="true" />
+      <created>1723827436739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827436739</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created check_edge method">
+      <option name="closed" value="true" />
+      <created>1723827481141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827481141</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added methods print_matrix and add_node">
+      <option name="closed" value="true" />
+      <created>1723827529289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723827529289</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created and tested del_node method and matrix is dynamic now">
+      <option name="closed" value="true" />
+      <created>1724257794778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724257794778</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created and tested incidence list">
+      <option name="closed" value="true" />
+      <created>1724309406102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724309406102</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created and tested incidence matrix">
+      <option name="closed" value="true" />
+      <created>1724584291280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724584291280</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added default type">
+      <option name="closed" value="true" />
+      <created>1724584335245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724584335245</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updates to adjacency matrix">
+      <option name="closed" value="true" />
+      <created>1724688219960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724688219960</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added checks for alloved types">
+      <option name="closed" value="true" />
+      <created>1724693717068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724693717068</updated>
+    </task>
+    <task id="LOCAL-00013" summary="methods to make tasks done">
+      <option name="closed" value="true" />
+      <created>1724693742762</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724693742762</updated>
+    </task>
+    <task id="LOCAL-00014" summary="random insignificant changes. this file will eventually die">
+      <option name="closed" value="true" />
+      <created>1724693777068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724693777068</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed methods for incedence matrix">
+      <option name="closed" value="true" />
+      <created>1724946806153</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724946806153</updated>
+    </task>
+    <task id="LOCAL-00016" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1725105451402</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725105451402</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Project organization changes">
+      <option name="closed" value="true" />
+      <created>1725542096118</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725542096118</updated>
+    </task>
+    <task id="LOCAL-00018" summary="additional changes to project organization">
+      <option name="closed" value="true" />
+      <created>1725546941691</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725546941691</updated>
+    </task>
+    <task id="LOCAL-00019" summary="creation of test for adjacency storage">
+      <option name="closed" value="true" />
+      <created>1725546970194</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725546970194</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project created" />
+    <MESSAGE value="Node created" />
+    <MESSAGE value="Created graph method" />
+    <MESSAGE value="Created add_edge method" />
+    <MESSAGE value="Created check_edge method" />
+    <MESSAGE value="Added methods print_matrix and add_node" />
+    <MESSAGE value="Created and tested del_node method and matrix is dynamic now" />
+    <MESSAGE value="created and tested incidence list" />
+    <MESSAGE value="created and tested incidence matrix" />
+    <MESSAGE value="added default type" />
+    <MESSAGE value="updates to adjacency matrix" />
+    <MESSAGE value="added checks for alloved types" />
+    <MESSAGE value="methods to make tasks done" />
+    <MESSAGE value="random insignificant changes. this file will eventually die" />
+    <MESSAGE value="Completed methods for incedence matrix" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="Project organization changes" />
+    <MESSAGE value="additional changes to project organization" />
+    <MESSAGE value="creation of test for adjacency storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of test for adjacency storage" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datatypes/adjacency_list.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/adj_matrix_test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datatypes/incidence_matrix.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
